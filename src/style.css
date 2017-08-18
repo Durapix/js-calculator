@@ -1,0 +1,85 @@
+body {
+	color: red;
+}
+
+span {
+   color:blue;
+}
+
+p > span {  
+/*  PRIMENA STILA NA SPANOVE U P-u */
+ color:green;
+ background-color: blue;
+}
+
+.ultraDugme {
+	background-color:black;
+	color:white;
+}
+
+#nashaSlika:hover {
+    width: 240px;
+    height: 240px;
+}
+
+#nashaSlika {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+
+
+th {
+	background-color: white;
+	color: black;
+
+}
+
+
+.txtUnos {
+	display: block;
+	width: 76%;
+	
+}
+
+.numberPad {
+	background-color: #555333;
+	color: white;
+}
+
+.numberPad:hover {
+	color: #555333;
+	background-color: purple;
+	
+}
+
+#btnEquals {
+	color: orange;
+	background-color: yellow;
+}
+
+#btnSum {
+	color:red;
+	background-color: pink;
+	
+}
+
+div {
+	width:500px;
+}
+
+div > button {
+	display:inline-block;
+	width:25%;
+}
+
+
+
+
