@@ -54,9 +54,9 @@ CURRENT_VERSION = "1.0 DEVELOPMENT";
 
     // all of the numpad numbers have the same click handler, 
     // its duty will be to set the appropariate value in the current Operand's field
-    for(let i = 0; i <= 9; i++) {
+    for(var i  = 0; i <= 9; i++) {
         // find each numpad by ID
-        let numpadEle = document.getElementById("btn" + i); // btn0, btn1, btn2, btn3...btn9
+        var numpadEle = document.getElementById("btn" + i); // btn0, btn1, btn2, btn3...btn9
         numpadEle.onclick = numpadClicked;
     }
 
@@ -93,9 +93,9 @@ function onOperandFocus(event) {
     // since this is an event handler triggered when a button is clicked
     // "this" will be a reference to the button itself
     // we can use "this" to get the button's ID
-    let id = this.id;
+    var id = this.id;
     // id is in the following format: "btnNUMBER"
-    let buttonValue = id.substring("btn".length); 
+    var buttonValue = id.substring("btn".length); 
 
     if(gCurrentOperand !== null) {
         // append numpad value to operand text
@@ -171,7 +171,7 @@ function onOperandFocus(event) {
         // make sure that our arguments are valid...
         if(typeof valueA !== "number" || typeof valueB != "number") {
             // break the browser a little bit
-            for(let i = 0; i < Number.MAX_SAFE_INTEGER; i++) {
+            for(var i  = 0; i < Number.MAX_SAFE_INTEGER; i++) {
                 console.log("ERROR, OPERANDS MUST BE NUMBERS! THIS IS GONNA HURT A LOT");
             }
             throw new Error("Here's a cool exception for u, that'll teach you not to give me non-number arguments..!");
