@@ -26,5 +26,5 @@ https://docs.google.com/document/d/1rR-1c0LFxdfma59t-NFrNV7IYtXjsSPeYArG1pi2cro/
 
 ### TEST PLAN, TEST SUITES for MANUAL TESTING are here:
 
-https://docs.google.com/document/d/1rR-1c0LFxdfma59t-NFrNV7IYtXjsSPeYArG1pi2cro/edit
+https://docs.google.com/spreadsheets/d/1H1YbG5kidQTfW_7cla2WPj0_HnjIKQMSJho4Bm_N17A/edit?usp=sharing
 
