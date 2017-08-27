@@ -20,4 +20,11 @@ Available on:
   
 Open your browser and navigate to http://localhost:8080
 
-Requirement Specification is available here:
+### Requirement Specification is available here:
+
+https://docs.google.com/document/d/1rR-1c0LFxdfma59t-NFrNV7IYtXjsSPeYArG1pi2cro/edit?usp=asogm
+
+### TEST PLAN, TEST SUITES for MANUAL TESTING are here:
+
+https://docs.google.com/document/d/1rR-1c0LFxdfma59t-NFrNV7IYtXjsSPeYArG1pi2cro/edit
+
